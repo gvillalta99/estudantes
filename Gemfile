@@ -8,6 +8,7 @@ gem 'responders'
 gem 'sass-rails', '~> 5.0'
 gem 'slim-rails'
 gem 'uglifier', '>= 1.3.0'
+gem 'enumerate_it'
 
 group :development, :test do
   gem 'factory_girl'
