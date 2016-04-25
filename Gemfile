@@ -9,9 +9,9 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl'
 end
 
 group :test do
   gem 'capybara'
 end
-
