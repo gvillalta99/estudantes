@@ -18,6 +18,7 @@ Na execução do projeto é necessária a utilização das seguintes tecnologias
     - [ ] controller,
         - [x] students
         - [x] courses
+        - [x] home
     - [ ] model com FactoryGirl
   - [ ] utilização da gem Responder,
   - [ ] utilização da gem Enumerate It,
