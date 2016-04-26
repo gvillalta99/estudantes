@@ -14,7 +14,7 @@ gem 'enumerate_it'
 gem 'thin'
 
 group :development, :test do
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'pry'
   gem 'rspec-rails', '~> 3.0'
 end
