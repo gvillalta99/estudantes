@@ -9,14 +9,14 @@
 Na execução do projeto é necessária a utilização das seguintes tecnologias:
   
   - RubyOnRails:
-    - tradução/locale:
+    - [x] tradução/locale:
       - de models
       - de controllers
       - e/ou views
   - RSpec:
-    - testes de aceitação com Capybara,
-    - controller,
-    - model com FactoryGirl
+    - [ ] testes de aceitação com Capybara,
+    - [ ] controller,
+    - [ ] model com FactoryGirl
   - utilização da gem Responder,
   - utilização da gem Enumerate It,
   - utilização da gem Slim-Rails,
