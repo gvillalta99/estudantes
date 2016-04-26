@@ -12,10 +12,10 @@ Na execução do projeto é necessária a utilização das seguintes tecnologias
     - [x] tradução/locale:
       - de models
       - de controllers
-      - e/ou views
+      - [x] e/ou views
   - RSpec:
     - [ ] testes de aceitação com Capybara,
-    - [ ] controller,
+    - [x] controller,
         - [x] students
         - [x] courses
         - [x] home
