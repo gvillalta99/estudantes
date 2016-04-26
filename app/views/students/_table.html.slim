@@ -1,0 +1,19 @@
+table
+  thead
+    tr
+      th = t '.name'
+      th = t '.register_number'
+      th = t '.status'
+      th
+      th
+      th
+  tbody
+    - students.each do |student|
+      tr
+        td = student.name
+        td = student.register_number
+        td = student.status
+        td = link_to t('.show'), student
+        td = link_to t('.edit'), edit_student_path(student)
+        td = link_to t('.destroy'), student, data: { confirm: t('.confirm')}, :method => :delete
+

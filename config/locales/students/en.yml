@@ -6,3 +6,15 @@ en:
       status: Status
       submit: Create Student
       title: New Student Form
+      error_explanation: "%{error} prohibited this student from being saved:"
+    table:
+      confirm: Are you sure?
+    index:
+      new_student: New Student
+    new:
+      title: New Student
+      submit: Create Student
+    edit:
+      title: Edit Student
+      show: View Student
+      submit: Update

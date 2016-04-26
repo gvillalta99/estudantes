@@ -1,5 +1,6 @@
-h1 New student
+h1 = t('.title')
 
-== render 'form'
-
-= link_to 'Back', students_path
+.students
+  #students_form
+    == render partial: 'form', locals: {student: @student, submit_text: t('.submit')}
+    = link_to t('back'), students_path
