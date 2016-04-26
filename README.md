@@ -19,7 +19,7 @@ Na execução do projeto é necessária a utilização das seguintes tecnologias
         - [x] students
         - [x] courses
         - [x] home
-    - [ ] model com FactoryGirl
+    - [x] model com FactoryGirl
   - [ ] utilização da gem Responder,
   - [ ] utilização da gem Enumerate It,
   - [x] utilização da gem Slim-Rails,
