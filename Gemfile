@@ -11,6 +11,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'slim-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'enumerate_it'
+gem 'thin'
 
 group :development, :test do
   gem 'factory_girl'
