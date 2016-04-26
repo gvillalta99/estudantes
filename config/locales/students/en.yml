@@ -1,0 +1,8 @@
+en:
+  students:
+    form:
+      name: Name
+      register_number: Register Number
+      status: Status
+      submit: Create Student
+      title: New Student Form

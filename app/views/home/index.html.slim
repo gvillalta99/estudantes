@@ -1,6 +1,9 @@
-h1
-  = t ".home"
+.title
+  h1
+    = t ".home"
+hr
 .students
   = render partial: "students/form", locals: { student: Student.new }
+hr
 .courses
   = render partial: "courses/form", locals: { course: Course.new }

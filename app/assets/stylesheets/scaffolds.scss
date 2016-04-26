@@ -71,3 +71,25 @@ div {
     list-style: square;
   }
 }
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    .field {
+    }
+}
+.field {
+    display: block;
+    clear: both;
+    height: 2em;
+
+    label {
+        float: left;
+    }
+    input {
+        float: right;
+    }
+}
+.title {
+    text-align: center;
+}
