@@ -15,8 +15,11 @@ RSpec.describe 'Enrollment feature', type: :feature do
       expect(page).to have_content('New Enrollment')
       select student.name, from: 'enrollment_student_id'
       select course.name, from: 'enrollment_course_id'
-      fill_in 'enrollment_date', with: '10/10/2010'
+      fill_in 'enrollment_entry_at', with: '10/10/2010'
       click_on 'Enroll'
+      student.reload
+      course.reload
+      expect(student.courses).to include(course)
     end
   end
 end

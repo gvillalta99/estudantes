@@ -21,3 +21,6 @@
 
 en:
   back: 'Back'
+  time:
+    formats:
+      only_date: "%d-%m-%Y"

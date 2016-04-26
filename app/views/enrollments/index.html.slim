@@ -2,5 +2,14 @@ h1 New Enrollment
 = form_for :enrollment do |f|
   = f.select :student_id, Student.all.pluck(:name, :id)
   = f.select :course_id, Course.all.pluck(:name, :id)
-  = f.text_field :date
+  = f.date_field :entry_at
   = f.submit 'Enroll'
+
+ul
+  - Classroom.all.each do |c|
+    li
+      = c.student.name
+      |  enrolled at 
+      = c.course.name
+      |  on 
+      = l c.entry_at, format: :only_date
