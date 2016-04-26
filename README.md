@@ -9,8 +9,10 @@
 Na execução do projeto é necessária a utilização das seguintes tecnologias:
   
   - RubyOnRails:
-    - tradução/locale de models
-    - controllers e/ou views
+    - tradução/locale:
+      - de models
+      - de controllers
+      - e/ou views
   - RSpec:
     - testes de aceitação com Capybara,
     - controller,
