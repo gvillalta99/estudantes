@@ -1,2 +1,6 @@
-h1 Home#index
-p Find me in app/views/home/index.html.slim
+h1
+  = t ".home"
+.students
+  = render partial: "students/form", locals: { student: Student.new }
+.courses
+  = render partial: "courses/form", locals: { course: Course.new }
