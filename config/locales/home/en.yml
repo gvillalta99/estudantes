@@ -3,4 +3,5 @@ en:
     index:
       home: Home Page!
       students: Students Page!
-      coursers: Courses Page!
+      courses: Courses Page!
+      enrollments: Enrollments Page!
