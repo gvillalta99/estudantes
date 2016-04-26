@@ -1,9 +1,7 @@
 .title
   h1
     = t ".home"
-hr
-.students
-  = render partial: "students/form", locals: { student: Student.new }
-hr
-.courses
-  = render partial: "courses/form", locals: { course: Course.new }
+  h2
+    = link_to t('.students'), students_path
+  h2
+    = link_to t('.courses'), courses_path

@@ -1,8 +1,9 @@
+$base-font-size: 13px;
 body {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: $base-font-size;
   line-height: 18px;
 }
 
@@ -72,24 +73,57 @@ div {
   }
 }
 
-form {
-    max-width: 600px;
+hr { clear: both; }
+
+.container {
+    clear: both;
     margin: 0 auto;
-    .field {
+    table {
+        border-collapse: collapse;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        margin-right: auto;
+        width: 45%;
+        display: block;
+        float: right;
+        th {
+            font-size: 2em;
+            padding: 0.67em 0.3em 0.3em ;
+        }
+        tbody {
+            tr {
+                border-bottom: 1px solid black;
+            }
+            td {
+                padding: 0.67em;
+            }
+        }
+    }
+    form {
+        padding-left: 1em;
+        padding-bottom: 1em;
+        margin-left: auto;
+        width: 45%;
+        display: block;
+        float: left;
+        .field {
+            display: block;
+            clear: both;
+            height: 2em;
+            label {
+                float: left;
+            }
+            input {
+                float: right;
+            }
+        }
     }
 }
-.field {
-    display: block;
-    clear: both;
-    height: 2em;
 
-    label {
-        float: left;
-    }
-    input {
-        float: right;
-    }
+.students, .courses {
+    @extend .container;
 }
 .title {
     text-align: center;
 }
+
