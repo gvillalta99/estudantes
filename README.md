@@ -16,6 +16,8 @@ Na execução do projeto é necessária a utilização das seguintes tecnologias
   - RSpec:
     - [ ] testes de aceitação com Capybara,
     - [ ] controller,
+        - [x] students
+        - [ ] courses
     - [ ] model com FactoryGirl
   - [ ] utilização da gem Responder,
   - [ ] utilização da gem Enumerate It,
