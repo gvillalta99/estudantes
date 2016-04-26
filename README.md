@@ -17,7 +17,7 @@ Na execução do projeto é necessária a utilização das seguintes tecnologias
     - [ ] testes de aceitação com Capybara,
     - [ ] controller,
         - [x] students
-        - [ ] courses
+        - [x] courses
     - [ ] model com FactoryGirl
   - [ ] utilização da gem Responder,
   - [ ] utilização da gem Enumerate It,
