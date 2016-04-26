@@ -1,11 +1,11 @@
-h1 Listing courses
+h1 = t('.title')
 
 table
   thead
     tr
-      th Name
-      th Description
-      th Status
+      th = t('.name')
+      th = t('.description')
+      th = t('.status')
       th
       th
       th
@@ -16,10 +16,10 @@ table
         td = course.name
         td = course.description
         td = course.status
-        td = link_to 'Show', course
-        td = link_to 'Edit', edit_course_path(course)
-        td = link_to 'Destroy', course, data: {:confirm => 'Are you sure?'}, :method => :delete
+        td = link_to t('.show'), course
+        td = link_to t('.edit'), edit_course_path(course)
+        td = link_to t('.destroy'), course, data: {:confirm => t('.confirm')}, :method => :delete
 
 br
 
-= link_to 'New Course', new_course_path
+= link_to t('.new_course'), new_course_path

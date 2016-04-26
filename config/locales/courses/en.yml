@@ -1,0 +1,30 @@
+en:
+  courses:
+    form:
+      name: Name
+      description: Description
+      status: Status
+      submit: Create Course
+    show:
+      name: "Name:"
+      description: "Description:"
+      status: "Status:"
+      edit: Edit Course
+    edit:
+      title: Editing Course
+      submit: Update Course
+      show: See Course
+    new:
+      title: New Course
+      submit: Create Course
+    index:
+      title: Listing Courses
+      name: Name
+      description: Description
+      status: Status
+      show: Show
+      edit: Edit
+      destroy: Destroy
+      confirm: 'Are you sure?'
+      new_course: New Course
+

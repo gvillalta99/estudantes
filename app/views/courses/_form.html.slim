@@ -7,12 +7,12 @@
           li = message
 
   .field
-    = f.label :name
+    = f.label t '.name'
     = f.text_field :name
   .field
-    = f.label :description
+    = f.label t '.description'
     = f.text_field :description
   .field
-    = f.label :status
+    = f.label t '.status'
     = f.number_field :status
-  .actions = f.submit
+  .actions = f.submit (submit_text || t('.submit'))
