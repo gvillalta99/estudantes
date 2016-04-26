@@ -17,10 +17,10 @@ Na execução do projeto é necessária a utilização das seguintes tecnologias
     - [ ] testes de aceitação com Capybara,
     - [ ] controller,
     - [ ] model com FactoryGirl
-  - utilização da gem Responder,
-  - utilização da gem Enumerate It,
-  - utilização da gem Slim-Rails,
-  - e PostgreSQL.
+  - [ ] utilização da gem Responder,
+  - [ ] utilização da gem Enumerate It,
+  - [x] utilização da gem Slim-Rails,
+  - [x] PostgreSQL.
 
 Nos cadastros básicos e matrícula é desejável que seja realizado as validações e
 máscaras Javascript para tornar mais agradável o uso da aplicação WEB.
