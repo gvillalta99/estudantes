@@ -3,5 +3,6 @@ class EnrollmentsController < ApplicationController
   end
 
   def create
+    redirect_to enrollments_path
   end
 end

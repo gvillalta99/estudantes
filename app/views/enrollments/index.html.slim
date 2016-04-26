@@ -1,2 +1,6 @@
 h1 New Enrollment
-p Find me in app/views/enrollments/index.html.slim
+= form_for :enrollment do |f|
+  = f.select :student_id, Student.all.pluck(:name, :id)
+  = f.select :course_id, Course.all.pluck(:name, :id)
+  = f.text_field :date
+  = f.submit 'Enroll'
